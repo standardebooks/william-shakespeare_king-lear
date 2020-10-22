@@ -42,6 +42,8 @@
 
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
+	/* for debugging only, remove */
+	color: red;
 }
 
 [epub|type~="z3998:stage-direction"]::before{
@@ -124,3 +126,16 @@ p span.i2{
 	font-style: italic;
 }
 /* End dramatis personae */
+
+/* Letters */
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:signature"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+/* Temporary fix */
+td{
+	vertical-align: top;
+}
