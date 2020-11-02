@@ -41,8 +41,7 @@
 }
 
 [epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-	/* for debugging only, remove */
+	font-style: italic; /* for debugging only, remove */
 	color: red;
 }
 
@@ -80,11 +79,18 @@ tr.together td + td{
 }
 /* End drama */
 
+/* DEBUG */
+td{
+	color: #0000AA;
+}
+/* END DEBUG */
+
 /* Verse & song */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
-	text-indent: 0;
+	text-indent: 0; /* DEBUG */
+	color: black; /* END DEBUG */
 }
 
 [epub|type~="z3998:song"] p > span,
@@ -128,9 +134,19 @@ p span.i2{
 /* End dramatis personae */
 
 /* Letters */
+#act-4 blockquote{
+	margin-top: 0.5em;
+	margin-left: 0;
+	margin-bottom: 0.5em;
+}
+
+footer{
+	margin-top: 0.5em;
+	text-align: right;
+}
+
 [epub|type~="z3998:sender"],
 [epub|type~="z3998:signature"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
