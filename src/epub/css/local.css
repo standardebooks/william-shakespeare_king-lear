@@ -2,14 +2,10 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Drama */
-[epub|type~="z3998:drama"]{
-	border-collapse: collapse;
-}
-
+[epub|type~="z3998:drama"],
 [epub|type~="z3998:drama"] table{
-	margin: 1em auto;
-	width: 100%;
 	border-collapse: collapse;
+	margin: 1em auto;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
@@ -41,8 +37,7 @@
 }
 
 [epub|type~="z3998:stage-direction"]{
-	font-style: italic; /* for debugging only, remove */
-	color: red;
+	font-style: italic;
 }
 
 [epub|type~="z3998:stage-direction"]::before{
@@ -64,12 +59,15 @@ section[epub|type~="z3998:scene"] > p{
 	width: 75%;
 }
 
+tr.together{
+	break-inside: avoid;
+}
+
 tr.together td{
 	padding: 0 .5em 0 0;
 	vertical-align: middle;
 }
 
-tr.together td:only-child,
 tr.together td + td{
 	border-left: 1px solid;
 }
@@ -79,18 +77,10 @@ tr.together td + td{
 }
 /* End drama */
 
-/* DEBUG */
-td{
-	color: #0000AA;
-}
-/* END DEBUG */
-
 /* Verse & song */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
-	text-indent: 0; /* DEBUG */
-	color: black; /* END DEBUG */
 }
 
 [epub|type~="z3998:song"] p > span,
@@ -108,11 +98,6 @@ td{
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
-}
-
-p span.i2{
-	text-indent: -1em;
-	padding-left: 3em;
 }
 /* End verse & song */
 
@@ -149,9 +134,4 @@ footer{
 [epub|type~="z3998:signature"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
-}
-
-/* Temporary fix */
-td{
-	vertical-align: top;
 }
