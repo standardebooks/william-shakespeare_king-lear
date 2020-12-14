@@ -116,6 +116,10 @@ p span.i1{
 	margin: 1em;
 	font-style: italic;
 }
+
+[epub|type~="z3998:dramatis-personae"] p{
+	text-indent: 0;
+}
 /* End dramatis personae */
 
 /* Letters */
