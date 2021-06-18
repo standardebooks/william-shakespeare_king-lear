@@ -69,7 +69,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/004390776</dc:source>
 		<meta property="se:production-notes">The main text is based on the MIT transcription and 1887 Victoria edition.</meta>
 		<meta property="se:word-count">28346</meta>
-		<meta property="se:reading-ease.flesch">81.83</meta>
+		<meta property="se:reading-ease.flesch">82.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/King_Lear</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-shakespeare_king-lear</meta>
 		<dc:creator id="author">William Shakespeare</dc:creator>
