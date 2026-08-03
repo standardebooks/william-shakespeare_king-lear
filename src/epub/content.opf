@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/william-shakespeare/king-lear</dc:identifier>
 		<dc:date>2020-11-09T21:49:01Z</dc:date>
@@ -57,15 +57,15 @@
 		<meta property="group-position" refines="#collection-1">19</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<dc:description id="description">An aging king divides his kingdom between his two eldest daughters, slighting the third, and comes to bitterly regret his decision.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An aging king divides his kingdom between his two eldest daughters, slighting the third, and comes to bitterly regret his decision.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;King Lear&lt;/i&gt; is a tragedy by &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare&lt;/a&gt;, written about 1605 or 1606. Shakespeare based it on the legendary King Leir of the Britons, whose story is outlined in Geoffrey of Monmouth’s pseudohistorical &lt;i&gt;History of the Kings of Britain&lt;/i&gt; (written in about 1136).&lt;/p&gt;
 			&lt;p&gt;The play tells the tale of the aged King Lear who is passing on the control of his kingdom to his three daughters. He asks each of them to express their love for him, and the first two, Goneril and Regan do so effusively, saying they love him above all things. But his youngest daughter, Cordelia, is compelled to be truthful and says that she must reserve some love for her future husband. Lear, enraged, cuts her off without any inheritance.&lt;/p&gt;
 			&lt;p&gt;The secondary plot deals with the machinations of Edmund, the bastard son of the Earl of Gloucester, who manages to convince his father that his legitimate son Edgar is plotting against him.&lt;/p&gt;
 			&lt;p&gt;After Lear steps down from power, he finds that his elder daughters have no real respect or love for him, and treat him and his followers as a nuisance. They allow the raging Lear to wander out into a storm, hoping to be rid of him, and conspire with Edmund to overthrow the Earl of Gloucester.&lt;/p&gt;
 			&lt;p&gt;The play is a moving study of the perils of old age and the true meaning of filial love. It ends tragically with the deaths of both Cordelia and Lear—so tragically, in fact, that performances during the Restoration period sometimes substituted a happy ending. In modern times, though, &lt;i&gt;King Lear&lt;/i&gt; is performed as written and generally regarded as one of Shakespeare’s best plays.&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks edition is based on William George Clark and William Aldis Wright’s 1887 Victoria edition, which is taken from the Globe edition.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://shakespeare.mit.edu/lear/full.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/004135080</dc:source>
