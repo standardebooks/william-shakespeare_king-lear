@@ -57,7 +57,7 @@
 		<meta property="group-position" refines="#collection-1">19</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<dc:abstract>An aging king divides his kingdom between his two eldest daughters, slighting the third, and comes to bitterly regret his decision.</dc:abstract>
+		<meta property="schema:abstract">An aging king divides his kingdom between his two eldest daughters, slighting the third, and comes to bitterly regret his decision.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;King Lear&lt;/i&gt; is a tragedy by &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare&lt;/a&gt;, written about 1605 or 1606. Shakespeare based it on the legendary King Leir of the Britons, whose story is outlined in Geoffrey of Monmouth’s pseudohistorical &lt;i&gt;History of the Kings of Britain&lt;/i&gt; (written in about 1136).&lt;/p&gt;
 			&lt;p&gt;The play tells the tale of the aged King Lear who is passing on the control of his kingdom to his three daughters. He asks each of them to express their love for him, and the first two, Goneril and Regan do so effusively, saying they love him above all things. But his youngest daughter, Cordelia, is compelled to be truthful and says that she must reserve some love for her future husband. Lear, enraged, cuts her off without any inheritance.&lt;/p&gt;
