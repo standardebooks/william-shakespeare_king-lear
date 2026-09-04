@@ -31,12 +31,12 @@
 		<dc:title id="title">King Lear</dc:title>
 		<meta property="file-as" refines="#title">King Lear</meta>
 		<dc:subject id="subject-1">Tragedies</dc:subject>
-		<dc:subject id="subject-2">Fathers and daughters -- Drama</dc:subject>
-		<dc:subject id="subject-3">Inheritance and succession -- Drama</dc:subject>
-		<dc:subject id="subject-4">Lear, King (Legendary character) -- Drama</dc:subject>
-		<dc:subject id="subject-5">Britons -- Drama</dc:subject>
-		<dc:subject id="subject-6">Kings and rulers -- Drama</dc:subject>
-		<dc:subject id="subject-7">Aging parents -- Drama</dc:subject>
+		<dc:subject id="subject-2">Fathers and daughters--Drama</dc:subject>
+		<dc:subject id="subject-3">Inheritance and succession--Drama</dc:subject>
+		<dc:subject id="subject-4">Lear, King (Legendary character)--Drama</dc:subject>
+		<dc:subject id="subject-5">Britons--Drama</dc:subject>
+		<dc:subject id="subject-6">Kings and rulers--Drama</dc:subject>
+		<dc:subject id="subject-7">Aging parents--Drama</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2001009136</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
